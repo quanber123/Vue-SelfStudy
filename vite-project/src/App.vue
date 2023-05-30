@@ -1,7 +1,9 @@
-<script setup></script>
-
 <template>
-  <h2 style="color: red">App Components</h2>
+  <Register />
 </template>
-
-<style scoped></style>
+<script setup>
+import Register from './components/Register.vue';
+</script>
+<style scoped>
+@import './style.css';
+</style>
